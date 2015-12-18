@@ -10,7 +10,7 @@ let g:loaded_tabmove_assist = 1
 let s:cpo_save = &cpo
 set cpo&vim
 
-fun! s:specifying_window_close(dest)
+fun! window_closer#specifying_window_close(dest)
   if winnr('$') == 1
     return 0
   endif
