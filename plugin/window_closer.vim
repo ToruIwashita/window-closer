@@ -2,4 +2,7 @@
 " Author:  ToruIwashita <toru.iwashita@gmail.com>
 " License: This file is placed in the public domain.
 
-command! -nargs=1 WinClose call window_closer#specifying_window_close(<args>)
+command! CloseRightWin call window_closer#close_specifying_window('l')
+command! CloseLeftWin call window_closer#close_specifying_window('h')
+command! CloseUpWin call window_closer#close_specifying_window('k')
+command! CloseDownWin call window_closer#close_specifying_window('j')
