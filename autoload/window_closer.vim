@@ -24,6 +24,7 @@ fun! window_closer#close_specifying_window(dest)
   endif
 
   silent! close
+  wincm p
 endf
 
 let &cpo = s:cpo_save
