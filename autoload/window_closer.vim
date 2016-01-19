@@ -5,7 +5,7 @@
 if exists('g:loaded_window_closer')
   finish
 endif
-let g:loaded_tabmove_assist = 1
+let g:loaded_window_closer = 1
 
 let s:cpo_save = &cpo
 set cpo&vim
