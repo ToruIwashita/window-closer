@@ -1,2 +1,2 @@
 # window-closer.vim
-Assist closing a window
+Assist with window closing
