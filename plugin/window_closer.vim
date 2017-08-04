@@ -15,5 +15,7 @@ command! CloseLeftWin call window_closer#close_specifying_window('h')
 command! CloseUpWin call window_closer#close_specifying_window('k')
 command! CloseDownWin call window_closer#close_specifying_window('j')
 
+command! CloseMisWin call window_closer#close_miscellaneous_window()
+
 let &cpo = s:cpo_save
 unlet s:cpo_save

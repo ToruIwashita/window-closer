@@ -22,5 +22,11 @@ fun! window_closer#close_specifying_window(dest)
   wincm p
 endf
 
+fun! window_closer#close_miscellaneous_window()
+  cclose
+  lclose
+  pclose
+endf
+
 let &cpo = s:cpo_save
 unlet s:cpo_save
